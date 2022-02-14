@@ -213,7 +213,8 @@ main section article .product-card {
 
 .price {
     font-weight: bold;
-    font-size: var(--text-md);
+    font-size: var(--text-lg);
+    width: 30%;
 }
 
 main section article i {
@@ -259,9 +260,9 @@ main section article i,
 
 .flex-row{
     display: flex;
-    flex-direction: row;
     gap: 2em; 
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
 main section .products-container{
@@ -273,9 +274,8 @@ main section .products-container{
 
 article div.product-card{
     width: 100%;
-    display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    /*align-items: baseline;*/
     border-top: 1px solid #ebebeb;
     position: relative;
     padding: 15px;
@@ -308,7 +308,7 @@ footer{
 
 #iconos div{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding: 20px 20px;
 }
 #color-icono:hover{
@@ -402,11 +402,11 @@ footer{
     main section div.products article{
         width: 45%;
     }
-
+    /*
     .price,
     .discount{
         width: 50%;
-    }
+    }*/
     main section .products-container{
         flex-direction: row;
     }
