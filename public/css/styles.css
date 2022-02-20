@@ -1,55 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-:root {
-    /*Colors*/
-    --amarillo: #EAC926;
-    --azul: #03264C;
-    --azul-claro: #0022aa;
-    --celeste: #1259c3;
-    --gris-oscuro: #666;
-    --gris-claro: #ebebeb;
-    --verde: #39b54a;
-    /*Font Family*/
-    --roboto: 'Roboto', sans-serif;
-    /*Font Sizes*/
-    --text: 12px;
-    --title: 24px;
-    --text-lg: 18px;
-    --text-md: 16px;
-}
-
-/*Estilos globales*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-
-}
-body {
-    font-family: var(--roboto);
-    background-color: var(--gris-claro);
-}
-
-h3 {
-    font-size: var(--title);
-}
-h4 {
-    font-size: var(--text-lg);
-}
-p {
-    font-size: var(--text);
-}
-
-img {
-    width: 100%;
-}
-
+@import url('normalize.css');
 
 
 
@@ -196,7 +148,7 @@ main {
     margin: 0 auto;
     padding-bottom: 20px;
     display: block;
-
+    /*margin-top: 240px;*/
 }
 
 main section article {
@@ -382,7 +334,10 @@ footer{
 /* RESPONSIVE */
 
 @media (min-width: 361px) {
-
+    /*.main-header{
+        position: fixed;
+        top: 0;
+    }*/
     main section article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);   
    
